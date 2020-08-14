@@ -9,11 +9,6 @@ This project is part of the "Desenvolvendo um app para ajudar no combate a covid
 
 We mainly use [React Native](https://reactnative.dev/) . 
 
-<br />
-<p align="center">
-    <img src=".github/site.gif"/>
-</p>
-
 ---
 
 # Guide
