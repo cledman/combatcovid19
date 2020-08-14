@@ -1,5 +1,5 @@
 <p align="center">
-   <img src=".github/heroes.png" width="400" alt="logo from PalpiteBOX"/>
+   <img src=".github/preview.png" width="400" alt="logo"/>
 </p>
 
 # Combate ao covid-19
