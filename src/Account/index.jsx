@@ -22,9 +22,14 @@ function AcountPage({navigation}) {
     }, [])
 
     async function SetStorage(){
-      await AsyncStorage.setItem('@covid:name', name)
-      await AsyncStorage.setItem('@covid:points', '0')
-      navigation.navigate('HomePage',{name:name})
+      if(!name || name==undefined){
+        alert("Informe seu nome")
+      }
+      else{
+        await AsyncStorage.setItem('@covid:name', name)
+        await AsyncStorage.setItem('@covid:points', '0')
+        navigation.navigate('HomePage',{name:name})
+      }
     }
 
     return (
